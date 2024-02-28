@@ -1,0 +1,35 @@
+h2 {
+    color: orange;
+}
+span {
+    color: orange;
+}
+.pet{
+    height: 500px;
+    width: 300px;
+    display: inline-block;
+    margin: 50px;
+    display: cover;
+
+
+}
+img {
+    height: 125px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.card {
+    height: 500px;
+    width: 300px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 50px;
+    padding-left :10px;
+    border-radius: 10px;
+    
+}
+#pets {
+    display: flex;
+    justify-content: space-evenly;
+  }

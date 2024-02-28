@@ -1,0 +1,690 @@
+/* h1 {
+    color:red;
+    background-color:black;
+}
+     */
+
+/* Linking HTML with CSS File  */
+/* h1 {
+    color:blue;
+    background-color: gray;
+}
+p {
+    color:red;
+    background-color: cornsilk;
+}
+button {
+    color:gold; 
+    background-color: black;
+} */
+
+/* Practice quation */
+/* h2 {
+    color:orange;
+    color:rgb(120, 0, 120);
+    color:#ffff00;
+    background-color: #000000;
+}
+button {
+    color:white;
+    background-color: blue;
+}
+p {
+    color: white;
+    background-color: black;
+} */
+
+/* Test alignment  */
+/* h1 {
+    text-align: right;
+    text-align: center;
+    
+    border: solid;
+    width: 50%;
+    text-decoration:wavy red underline;
+    letter-spacing: 10px;
+    letter-spacing: normal;
+    font-family: avant garde, didot, sans-serif ;
+}
+h2 {
+    text-align: center;
+    text-align: start;
+    text-align: left;
+    font-weight: normal;
+    font-weight: 700;
+    text-decoration: line-through;
+    text-decoration:pink overline;
+    font-family: impact;
+}
+p {
+    text-align: justify;
+    font-weight: normal;
+    text-decoration:double black underline;
+    line-height: 2.5;
+    line-height: normal;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+} */
+
+/* Practice Quation */
+/* h1 {
+    font-family: spartan;
+    color:#ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration:teal double underline;
+    text-transform: uppercase;
+} */
+
+/* Assignment Quation  */
+/* p {
+    background-color:#a52a2a ;
+    text-align: center;
+    color:red;
+    line-height: 30px;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    columns: black;
+}
+h4 {
+    text-align: center;
+}
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color:blueviolet;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+    color: rgb(0,255,0);
+    text-decoration: none;
+}
+span {
+    text-decoration: underline;
+} */
+
+/* CSS Chapter 2  */
+/* * {
+    font-family: "courier New";
+}
+h3 {
+    color: purple;
+}
+h1,h3 {
+    color:#b92b27;
+}
+#login {
+    background-color: white;
+}
+#signup {
+    background-color: #b92b27;
+}
+.upvote {
+    background-color: green;
+    color:rgb(22, 19, 227);
+} */
+
+/* PracticeQS quation  */
+/* * {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: #1b74e4;
+}
+#searchbtn {
+    background-color: black;
+    color:white;
+}
+.userbtn {
+    background-color: aqua;
+} */
+
+/* .upvote + button {
+    background-color:cornflowerblue ;
+    color:red;
+}
+div > input {
+    background-color: darkmagenta;
+}
+input[type="text"] {
+    color: red;
+}
+input[type="password"] {
+    color:green;
+}
+#myid p {
+    color:green;
+}
+button:hover {
+    background-color: black;
+    color:white;
+}
+h3:hover {
+    text-decoration: underline;
+}
+button:active{
+    background-color: pink;
+    color:yellow;
+}
+p:active {
+    font-weight: bold;
+    color:green
+}
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: red;
+}
+div:nth-of-type(2n) {
+    background-color: pink;
+}
+h1::first-letter{
+    color: green !important; 
+}
+#myid::first-line{
+    color:red;
+}
+p::selection{
+    color:rgb(151, 151, 34);
+} */
+
+/* Practice Assinment CSS Chapter 2  */
+/* #mainTopic {
+    color:blue;
+}
+*{
+    text-align: center;
+}
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    color:white;
+    background-color:cornflowerblue;
+}
+div button {
+    background-color: purple;
+    color:azure;
+}
+button:hover {
+    background-color: yellow;
+    color:blue;
+}
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+h1::first-letter {
+    color:red;
+}
+#yes:checked + label {
+    color:darkgreen;
+} */
+
+/* Box Model  */
+/* div {
+    
+    height:200px;
+    width:500px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin:5px;
+    border:5px solid yellow;
+    border-left-color:blue;
+    border-top-color: red;
+    border-radius:15px;
+    border-radius:50%;
+    border-right-color:green;
+    border-top-right-radius:20%;
+    padding-top:20px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin:10px 20px 30px;
+    margin:20px 30px 20px 30px;
+}                                                           
+h1 {
+    border-width: 5px;
+    border-style: dashed;
+    border-color: purple;
+    border:10px dotted yellow;
+    margin: 0px;
+
+}
+button {
+    border:2px solid black;
+    border-radius: 20px; 
+     padding-left: 25px; 
+    padding-right: 25px; 
+     padding:25px;
+     padding: 25px 30px;
+     padding: 20px 30px 20px 30px;
+
+} */
+
+/* #outer {
+    height: 200px;
+    width: 70px;
+    border:2px solid black
+}
+.inner {
+    height: 50px;
+    width:50px;
+    border:2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+#one {
+    background-color: red;
+}
+#two {
+    background-color: yellow;
+}
+#three {
+    background-color: green;
+} */
+
+/* Display Elments  */
+/* h2 {
+    display:inline;
+    background-color: yellow;
+}
+span {
+    display: block;
+    background-color: green;
+} */
+/* span {
+    background-color: pink;
+    border:2px solid black;
+    height: 100px;
+    width: 200px; */
+    /* padding: 50px; Padding just set in left & right side of the element  */
+/* } */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 10px;
+    border:2px solid black;
+    display:inline-block;
+}
+#third{
+    display: none;
+} */
+
+/* Parctice Quation CSS Part 3 */
+/* #div1 {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px black dotted;
+    margin-top:20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding:1em;
+}
+.one {
+    height: 100px;
+    width:100px;
+    border:2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+#list{
+    display: inline;
+} */
+
+/* CSS Chapter 4 - CSS Next Step  */
+/* Alpha Channel  */
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: #5eff009a;
+    transition-duration: 2s;
+    transition-delay: 1s;
+} */
+/* #opacity {
+    background-color: #ffbf00b8;
+    opacity: 0.5;
+}
+div:hover {
+    background-color:palegoldenrod;
+    margin: 400px;
+    background-color: pink;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #5eff009a;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in-out 0.2s;
+} */
+
+/* section {
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+    
+}
+
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}
+/* transform  */
+/* #one {
+    transform : rotate(45deg);
+}
+#two {
+    transform:scale(0.5);
+    transform:scale(0.5 , 2);
+}
+#three {
+    transform: translate(100px);
+}
+#four {
+    transform: skew(30deg);
+    transform:skew(-45deg);
+}
+#five {
+    transform:rotate(30deg) translate(150px) ;
+} */
+/* div {
+    color:white;
+    text-align: center;
+    width:400px;
+    height: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px black;
+    background-image: url("back.jpg");
+    background-size: contain;
+    background-size: auto;
+    background-size: cover;
+    
+} */
+/* Card Hover Effect  */
+
+/* simple Smiley Face  */
+/* .face{
+    width: 400px;
+    height: 400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+}
+.mouth{
+    width: 200px;
+    height: 75px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute ;
+    top: 250px;
+    left: 100px;
+}
+.left-eye, .right-eye {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.right-eye {
+    left: 250px;
+} */
+
+/* #box {
+    height: 200px;
+    width: 80%;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px auto ;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.cont div {
+    height: 70px;
+    width: 40px;
+    border: 2px solid black;
+    
+} */
+
+/* Grid  */
+/* .container {
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr);
+              or
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap:10px;
+    column-gap: 30px;
+    grid-gap: 10px 30px;
+    grid-gap: 10px;
+}
+.item {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+           or 
+    grid-column:1 / 3;
+    grid-column:1 / span 3; 
+}
+.two{
+    grid-row-start:1;
+    grid-row-end:3;
+          or 
+    grid-row:1/3;
+    grid-row:1/span 3;
+} */
+
+/* CSS Animation */
+/* .box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    animation-name: colorAnimate;
+    animation-direction: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+    animation: colorAnimation 3s ease-in 0s infinite normal ;
+}
+@keyframes fontAnimation {
+    from{
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+@keyframes colorAnimate {
+    from{
+        background-color: green;
+    }
+    to {
+        background-color: blue;
+    }
+} */
+/* .box{
+    height: 100px;
+    width: 300px;
+    background-color: orange;
+
+    animation: anim 2s linear 1s infinite;
+}
+@keyframes anim {
+    0%{font-size: 20px;
+    background-color: green;}
+    50%{font-size: 30px;
+    background-color: white;}
+    100%{font-size: 50px;
+    background-color: orange;}
+} */
+
+/* Media Queries  */
+/* h1 {
+    background-color: yellow;
+    border:2px solid black;
+}
+@media (width:400px) {
+    h1 {
+        background-color: red;
+        color:white;
+    }
+    div {
+        height: 100px;
+        width: 100px;
+        background-color: green;
+    }
+}
+@media (min-width:700px) {
+    h1{
+        background-color: limegreen;
+    }
+}
+@media (max-width:200px){
+    h1{
+        background-color: orange;
+    }
+}
+@media (min-width:200px) and (max-width:400px){
+    h1{
+        background-color: magenta;
+    }
+}
+@media (orientation: landscape) {
+    h1 {
+        background-color: aqua;
+        color: brown;
+    }
+} */
+
+/* Practice Quation CSS 6  */
+/* .cont {
+    height: 500px;
+    width: 700px;
+    display: grid;
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(12.1fr);
+    grid-gap: 10PX;
+    margin: 0;
+    padding: 0;
+}
+.cont div {
+    background-color: pink;
+    font-size: 1.5rem;
+}
+.header {
+    grid-column: 1 / span 12;
+}
+.sidebar {
+    grid-row: 1 / span 3;
+    grid-column: 2 / span 10;
+}
+.navigation {
+    grid-column: 4 / span 6;
+}
+.ads {
+    grid-column:10 / span 3 ;
+    grid-row: 2 / span 10;
+}
+.main {
+    grid-column: 4 / span 6;
+    grid-row: 3 / span 9;
+}
+.footer {
+    grid-column: 1 / span 12;
+} */
+
+/* .loader {
+    border:16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation : spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+body {
+    background-color: black;
+}
+.container {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    gap: 5px; 
+}
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-out 0.5s;
+    cursor: pointer;
+}
+.container img:hover {
+    width: 100%;
+}
